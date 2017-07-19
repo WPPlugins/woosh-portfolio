@@ -1,0 +1,187 @@
+table {
+	background-color:rgba(207,207,207,1.00);
+	padding:10px;
+	margin-top:10px;
+}
+td {
+	width:45%;
+}
+th {
+	text-align:left;
+}
+.delete {
+	background-color:#871E20;
+	color:white;
+	border-color:#871E20;
+	border-radius:20px;
+}
+.woosh-name, .back, .woosh-help {
+	cursor:pointer;
+	font-size:14pt;
+	color:rgba(16,77,111,1.00);
+	text-decoration:none;
+}
+.woosh-name:hover, .back:hover, .woosh-help:hover {
+	text-decoration:underline;
+}
+.woosh-help {
+	display:inline-block;
+	margin-bottom:20px;
+}
+.back {
+	margin:20px 10px;
+	width:200px;
+}
+.confirm {
+	display:inline-block;
+	background-color:#BAD584;
+	size:14pt;
+	padding:5px;
+}
+label {
+	font-size:14pt;
+}
+.woosh-actions input {
+	display:inline-block;
+	margin-left:10px;
+}
+form, .woosh-body {
+	width:100%;
+	margin-bottom:50px;
+	padding:5px;
+	z-index:1;
+}
+form.section {
+	background-color:rgba(190,190,190,0.90);
+}
+textarea {
+	width:100%;
+	display:inline-block;
+	height:250px;
+}
+img[alt="image1"], img[alt="image2"], img[alt="image3"], img[alt="image4"] {
+	width:40%;
+	margin-right:5%;
+	float:right;
+	cursor:pointer;
+}
+.woosh-top {
+	position:relative;
+	border-bottom:1px solid rgba(79,79,79,1.00);
+	height:350px;
+}
+.woosh-bottom {
+	margin-top:20px;
+	position:relative;
+	display:none;
+	overflow:hidden;
+	border-bottom:1px solid rgba(79,79,79,1.00);
+}
+/*div[media="0"] .woosh-bottom, div[media="0"] .woosh-top {
+	height:300px;
+}*/
+div[media="0"] .woosh-text {
+	height:350px;
+}
+.woosh-text {
+	display:inline-block;
+	width:190px;
+	position:relative;
+	padding-top:10px;
+	padding-left:10px;
+}
+.woosh-images {
+	display:inline-block;
+	width:80%;
+	position:absolute;
+	right:0px;
+	top:15px;
+}
+.woosh-actions {
+	margin-bottom:20px;
+}
+.woosh-more, .woosh-view {
+	background-color:rgba(0,0,0,0.90);
+	position:absolute;
+	bottom:5px;
+	color:#249EFF !important;
+	font-size:16pt;
+	padding:10px;
+	width:170px;
+	cursor:pointer;
+	text-decoration:none;
+	left:0px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#woosh-overlay {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,.8);
+	z-index:2;
+}
+#woosh-overlay img {
+	display:inline-block;
+	width:50%;
+	margin-left:25%;
+}
+#woosh-overlay input {
+	color:white;
+	font-size:16pt;
+	background:none;
+	margin-top:5%;
+	margin-left:25%;
+	border:0px;
+	cursor:pointer;
+}
+iframe {
+	margin-left:20%;
+}
+input[readonly="readonly"], textarea[readonly="readonly"] {
+	background-color:rgba(190,190,190,.9);
+	border:0px;
+	box-shadow:none;
+}
+		
+
+/*Phase 2 instructions*/
+
+.woosh-body-phase2 {
+	height:auto;
+}
+.woosh-sections-phase2 {
+	height:auto;
+}
+.woosh-images-phase2 {
+	position:static;
+	display:block;
+	width:100%;
+}
+div[media="0"] .woosh-text-phase2 {
+	width:90%;
+	display:block;
+	height:auto;
+	margin-bottom:10px;
+}
+.woosh-image-phase2 {
+	width:90% !important;
+	float:none !important;
+	margin-left:5%;
+	margin-right:0px !important;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.woosh-more-phase2 {
+	position:static;
+}
+.woosh-text-phase2 {
+	width:95%;
+	margin-bottom:10px;
+}
